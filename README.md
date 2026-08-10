@@ -2,7 +2,7 @@
 
 # Unity Robotics Hub
 
-<!-- [![Version](https://img.shields.io/github/v/tag/Unity-Technologies/Unity-Robotics-Hub)](https://github.com/Unity-Technologies/Unity-Robotics-Hub/releases) -->
+<!-- [![Version](https://img.shields.io/github/v/tag/Unity-Technologies/Unity-Robotics-Hub)](https://github.com/Unity-Billal-mesloub/Unity-Robotics-Hub/releases) -->
 [![License](https://img.shields.io/badge/license-Apache--2.0-green.svg)](LICENSE.md)
 ![ROS](https://img.shields.io/badge/ros-melodic-brightgreen)
 ![ROS](https://img.shields.io/badge/ros-noetic-brightgreen)
@@ -32,15 +32,15 @@ Brief steps on installing the Unity Robotics packages.
 
 A complete end-to-end demonstration, including how to set up the Unity environment, how to import a robot from URDF, and how to set up two-way communication with ROS for control.
 
-### [Object Pose Estimation Tutorial](https://github.com/Unity-Technologies/Robotics-Object-Pose-Estimation)
+### [Object Pose Estimation Tutorial](https://github.com/Unity-Billal-mesloub/Robotics-Object-Pose-Estimation)
 
 A complete end-to-end demonstration in which we collect training data in Unity and use that data to train a deep neural network to predict the pose of a cube. This model is then deployed in a simulated robotic pick-and-place task.
 
-### [Articulations Robot Demo](https://github.com/Unity-Technologies/articulations-robot-demo)
+### [Articulations Robot Demo](https://github.com/Unity-Billal-mesloub/articulations-robot-demo)
 
 A robot simulation demonstrating Unity's new physics solver (no ROS dependency).
 
-### [**New!**] [Navigation 2 SLAM Example](https://github.com/Unity-Technologies/Robotics-Nav2-SLAM-Example)
+### [**New!**] [Navigation 2 SLAM Example](https://github.com/Unity-Billal-mesloub/Robotics-Nav2-SLAM-Example)
 
 An example simulation environment, integrated with ROS 2 and **[New!] Visualizations**, which enables the exercise of ROS 2's Navigation 2 and slam_toolbox packages using a simulated Turtlebot 3.
 
@@ -50,15 +50,15 @@ An example simulation environment, integrated with ROS 2 and **[New!] Visualizat
 |---|---|
 | [ROS–Unity Integration](tutorials/ros_unity_integration/README.md) | A set of component-level tutorials showing how to set up communication between ROS and Unity |
 | [URDF Importer](tutorials/urdf_importer/urdf_tutorial.md) | Steps on using the Unity package for loading [URDF](http://wiki.ros.org/urdf) files |
-| [**New!**] [Visualizations](https://github.com/Unity-Technologies/ROS-TCP-Connector/blob/main/com.unity.robotics.visualizations/Documentation~/README.md) | Usage instructions for adding visualizations for incoming and outgoing ROS messages |
+| [**New!**] [Visualizations](https://github.com/Unity-Billal-mesloub/ROS-TCP-Connector/blob/main/com.unity.robotics.visualizations/Documentation~/README.md) | Usage instructions for adding visualizations for incoming and outgoing ROS messages |
 
 ## Component Repos
 
 | Repo | Functionality |
 |---|---|
-| [ROS TCP Endpoint](https://github.com/Unity-Technologies/ROS-TCP-Endpoint) | ROS node for sending/receiving messages from Unity |
-| [ROS TCP Connector](https://github.com/Unity-Technologies/ROS-TCP-Connector) | Unity package for sending, receiving, and visualizing messages from ROS |
-| [URDF Importer](https://github.com/Unity-Technologies/URDF-Importer) | Unity package for loading [URDF](http://wiki.ros.org/urdf) files |
+| [ROS TCP Endpoint](https://github.com/Unity-Billal-mesloub/ROS-TCP-Endpoint) | ROS node for sending/receiving messages from Unity |
+| [ROS TCP Connector](https://github.com/Unity-Billal-mesloub/ROS-TCP-Connector) | Unity package for sending, receiving, and visualizing messages from ROS |
+| [URDF Importer](https://github.com/Unity-Billal-mesloub/URDF-Importer) | Unity package for loading [URDF](http://wiki.ros.org/urdf) files |
 
 
 
@@ -81,7 +81,7 @@ Use articulation bodies to easily prototype industrial designs with realistic mo
 
 - [Unity Industrial Simulation](https://unity.com/products/unity-simulation)
 - [Unity Computer Vision](https://unity.com/computer-vision)
-- [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents)
+- [Unity ML-Agents Toolkit](https://github.com/Unity-Educational-Formation/ml-agents)
 
 ## New Physics Features in Unity
 ### New Features
@@ -96,7 +96,7 @@ Here’s a peek into what our Physics Team is hard at work on…
 - **Query primitives**. These simple, GameObject-less shapes allow for collision detection without requiring simulation (i.e., without calling Physics.Simulate). This feature will allow users to initialize objects in feasible locations, and can also be used for motion planning.
 
 ## ROS 2
-ROS2 support is now available! You can get started by following [this tutorial](https://github.com/Unity-Technologies/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/publisher.md).
+ROS2 support is now available! You can get started by following [this tutorial](https://github.com/Unity-Billal-mesloub/Unity-Robotics-Hub/blob/main/tutorials/ros_unity_integration/publisher.md).
 
 ## Community and Feedback
 
@@ -106,7 +106,7 @@ The Unity Robotics projects are open-source and we encourage and welcome contrib
 
 For questions or discussions about Unity Robotics package installations or how to best set up and integrate your robotics projects, please create a new thread on the [Unity Robotics forum](https://forum.unity.com/forums/robotics.623/) and make sure to include as much detail as possible.
 
-For feature requests, bugs, or other issues, please file a [GitHub issue](https://github.com/Unity-Technologies/Unity-Robotics-Hub/issues) using the provided templates and the Robotics team will investigate as soon as possible.
+For feature requests, bugs, or other issues, please file a [GitHub issue](https://github.com/Unity-Billal-mesloub/Unity-Robotics-Hub/issues) using the provided templates and the Robotics team will investigate as soon as possible.
 
 For any other questions or feedback, connect directly with the
 Robotics team at [unity-robotics@unity3d.com](mailto:unity-robotics@unity3d.com).
@@ -117,5 +117,4 @@ To get notified about new updates and features, [sign up for our newsletter](htt
 ## FAQs
 [FAQs](faq.md)
 
-## License
-[Apache License 2.0](LICENSE.md)
+
